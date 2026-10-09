@@ -35,58 +35,73 @@ a{color:var(--lime)}
 .foot{color:var(--l2);font-size:13px;text-align:center;margin-top:24px}
 @media (prefers-color-scheme:light){/* 保持 Ace 炭灰外观 */}
 @media (max-width:620px){table{display:block}table tr:first-child{display:none}table tr{display:block;background:#2A2929;border-radius:14px;padding:8px 12px;margin:8px 0}table td{display:block;border:0;padding:3px 0;min-width:0}table td:before{content:attr(data-l);display:block;color:#B5B3B3;font-size:12px;font-weight:600}table td:first-child{font-weight:700;font-size:15px;color:#fff}table td:first-child:before{display:none}}</style></head>
-<body><div class="wrap"><div class="brand"><b>Ace</b><span>网球 · 训练 · 成长</span><span class="dots"><i style="background:#B0BB52"></i><i style="background:#E87D49"></i><i style="background:#F7AD2D"></i><i style="background:#30AC9F"></i></span></div>
-<h1>Ace 隐私政策</h1>
-<div class="meta">生效日期：2026 年 10 月 9 日<br>开发者：俞全全<br>联系邮箱：<a href="mailto:yqqwjy@icloud.com">yqqwjy@icloud.com</a></div>
-
-<div class="sum"><h2>一句话</h2>
-<p style="font-size:17px;margin-bottom:6px"><strong>Ace 不收集你的任何数据。</strong>你的记录只存在你的 iPhone 上。</p>
+<body><div class="wrap"><div class="brand"><b>Ace</b><span>网球 · 训练 · 成长</span><span class="dots"><i style="background:#B0BB52"></i><i style="background:#E87D49"></i><i style="background:#F7AD2D"></i><i style="background:#30AC9F"></i></span></div><h1>Ace 隐私政策</h1><div class="meta">版本：2.0　生效日期：2026 年 10 月 20 日<br>运营者：俞全全（个人开发者）<br>联系邮箱：<a href="mailto:yqqwjy@icloud.com">yqqwjy@icloud.com</a></div><div class="sum"><h2>一句话</h2>
+<p style="font-size:17px;margin-bottom:6px"><strong>不登录，Ace 不收集任何数据。</strong>登录后只保存教练 / 学员互通必需的信息；Apple 健康原始数据永远只在你的手机上。</p>
 <div class="grid">
-<div class="tile"><b><i class="k" style="background:var(--lime)"></i>没有账号，没有服务器</b>不需要注册登录。开发者没有服务器，看不到你的任何记录。</div>
-<div class="tile"><b><i class="k" style="background:var(--teal)"></i>Apple 健康只读</b>只读取，不写入；只在本机显示，不上传、不分享。</div>
-<div class="tile"><b><i class="k" style="background:var(--gold)"></i>无广告、无统计</b>没有广告，没有 App 内购买，不接入任何统计、崩溃上报或第三方 SDK，不追踪你。</div>
-<div class="tile"><b><i class="k" style="background:var(--orange)"></i>一键删除</b>在 App 里随时可以删除全部数据。</div>
+<div class="tile"><b><i class="k" style="background:var(--lime)"></i>登录是可选的</b>个人记录、记分、状态分析都不需要账号。</div>
+<div class="tile"><b><i class="k" style="background:var(--teal)"></i>健康数据不上传</b>只在本机计算；共享给教练的只有你同意的「状态结论」。</div>
+<div class="tile"><b><i class="k" style="background:var(--gold)"></i>无广告、无追踪</b>没有广告和统计 SDK，不出售、不画像。</div>
+<div class="tile"><b><i class="k" style="background:var(--orange)"></i>随时导出、注销</b>App 内一键导出；注销后服务器数据立即删除。</div>
 </div></div>
-
-<section><h2><span class="n" style="background:var(--lime)">1</span>我们收集哪些信息</h2>
-<p>开发者<strong>不收集、不存储、不出售、不共享</strong>你的任何个人信息。Ace 不需要联网，不会把数据发送到开发者或任何第三方。</p></section>
-
-<section><h2><span class="n" style="background:var(--teal)">2</span>保存在你手机上的内容</h2>
-<p>为了让 App 正常工作，以下内容会保存在这台 iPhone 的 Ace 存储空间里，只有你能看到：</p>
+<div class="toc"><a href="#s1"><span>1</span>不登录时：什么都不收集</a><a href="#s2"><span>2</span>登录后：我们处理哪些个人信息</a><a href="#s3"><span>3</span>Apple 健康（HealthKit）</a><a href="#s4"><span>4</span>教练和学员之间能看到什么</a><a href="#s5"><span>5</span>存储地点与期限</a><a href="#s6"><span>6</span>委托处理与共享</a><a href="#s7"><span>7</span>你的权利</a><a href="#s8"><span>8</span>举报与内容安全</a><a href="#s9"><span>9</span>系统权限</a><a href="#s10"><span>10</span>未成年人</a><a href="#s11"><span>11</span>政策更新与联系</a></div>
+<section id="s1"><h2><span class="n" style="background:var(--lime)">1</span>不登录时：什么都不收集</h2>
+<p>Ace 的个人功能（记录训练、网球记分、计划、状态分析、分享图）<strong>不需要登录</strong>。不登录时，所有内容只保存在你的 iPhone 上，开发者看不到，也不收集。</p>
+<ul><li>保存在本机的内容：运动记录、比赛记录、训练计划、目标、昵称和设置；</li>
+<li>App 会在「文件 › Ace › Ace备份」里自动保存备份；开启 iCloud 备份时会随系统备份进入<strong>你自己的</strong> iCloud，开发者无法访问。</li></ul></section>
+<section id="s2"><h2><span class="n" style="background:var(--teal)">2</span>登录后：我们处理哪些个人信息</h2>
+<p>只有当你<strong>主动登录</strong>，使用「教练 / 学员」互通功能时，Ace 才会把下列信息保存到服务器：</p>
+<table><tr><th>信息</th><th>用途</th><th>是否必需</th></tr>
+<tr><td data-l="信息">手机号</td><td data-l="用途">仅在你选择用手机号登录时：登录、找回账号</td><td data-l="是否必需">否（iPhone 版用「通过 Apple 登录」）</td></tr>
+<tr><td data-l="信息">Apple 账户标识</td><td data-l="用途">「通过 Apple 登录」。只保存 Apple 给 Ace 的匿名标识，不保存你的 Apple ID 密码和邮箱</td><td data-l="是否必需">登录时</td></tr>
+<tr><td data-l="信息">昵称、头像（可选）</td><td data-l="用途">让教练 / 学员认出你</td><td data-l="是否必需">否</td></tr>
+<tr><td data-l="信息">课程记录与评价</td><td data-l="用途">教练记的课：时间、时长、练习内容、课时、技术打分、评语、课上强度、状态判断</td><td data-l="是否必需">绑定教练后</td></tr>
+<tr><td data-l="信息">你的训练和比赛记录</td><td data-l="用途">多设备同步；你同意共享时给教练看</td><td data-l="是否必需">否</td></tr>
+<tr><td data-l="信息">身体状态摘要</td><td data-l="用途">只在你同意共享给教练时上传：状态分、结论、恢复所需小时、7 天负荷、负荷比、你的自评</td><td data-l="是否必需">否（单独同意）</td></tr>
+<tr><td data-l="信息">同意记录、登录会话</td><td data-l="用途">证明你同意了哪个版本的政策（时间、IP、设备型号）；保持登录、防止盗用</td><td data-l="是否必需">是</td></tr>
+<tr><td data-l="信息">举报内容</td><td data-l="用途">处理你提交的举报</td><td data-l="是否必需">否</td></tr>
+</table>
+<p>我们<strong>不</strong>收集：位置、通讯录、相册、设备广告标识、浏览记录；不接入广告、统计、崩溃上报等第三方 SDK；不追踪你，不做用户画像，不出售任何信息。</p></section>
+<section id="s3"><h2><span class="n" style="background:var(--gold)">3</span>Apple 健康（HealthKit）</h2>
 <ul>
-<li>运动记录：类型、日期、时长、强度、估算消耗、动作 / 组数 / 重量、备注、你手动填写的城市；</li>
-<li>网球比赛记录：比分、逐局比分、对手称呼、场地；</li>
-<li>训练计划、目标、昵称和 App 设置。</li>
-</ul>
-<p>Ace 会在「文件」App 的「Ace › Ace备份」文件夹里自动保存一份备份，方便你换手机时迁移。如果你开启了 iPhone 的 iCloud 备份，这些内容会随系统备份一起保存到<strong>你自己的</strong> iCloud 账户，开发者无法访问。</p>
-<p>比赛里的“对手称呼”属于他人信息，建议使用昵称。</p></section>
-
-<section><h2><span class="n" style="background:var(--green)">3</span>Apple 健康（HealthKit）</h2>
+<li><strong>只读、只在本机计算：</strong>经你在系统弹窗同意后，Ace 读取体能训练、心率、静息心率、心率变异性（HRV）、睡眠、活动能量、步数，用来在你的手机上计算状态分和恢复建议。不向「健康」App 写入任何数据。</li>
+<li><strong>原始健康数据永远不上传：</strong>心率、HRV、睡眠等原始样本不会发到服务器，也不会给教练或任何第三方。</li>
+<li><strong>只有结论可以共享，而且要你单独同意：</strong>绑定教练时有一个独立开关「共享给教练」，默认关闭。打开后，只上传上一节列出的「身体状态摘要」，教练据此安排训练。随时可以在「我的 › 共享给教练」关闭，关闭后服务器上的摘要会被删除。</li>
+<li>健康相关信息属于敏感个人信息。我们只为上述目的处理，不用于广告、营销或数据挖掘，不存入 iCloud。</li>
+<li>可随时在 iPhone「设置 › 健康 › 数据访问与设备 › Ace」修改授权；不授权也能正常记录。</li></ul></section>
+<section id="s4"><h2><span class="n" style="background:var(--orange)">4</span>教练和学员之间能看到什么</h2>
 <ul>
-<li><strong>用途：</strong>经你在系统弹窗中同意后，Ace 读取体能训练、心率、静息心率、心率变异性、活动能量和步数，用于在 App 里展示训练时长、消耗和心率分析。</li>
-<li><strong>只读：</strong>Ace 不会向「健康」App 写入任何数据。</li>
-<li><strong>只在本机：</strong>健康数据只在 App 运行时用于计算和显示，不会另存为文件，不进入备份，不上传，不分享给任何人，也不用于广告或营销。</li>
-<li><strong>不编造：</strong>没有手表数据或没有授权时，Ace 不会估算或显示心率、恢复度等生理指标。</li>
-<li><strong>随时关闭：</strong>iPhone「设置 › 健康 › 数据访问与设备 › Ace」。不授权也可以正常记录。</li>
-</ul></section>
-
-<section><h2><span class="n" style="background:var(--gold)">4</span>系统权限</h2>
+<li>学员用教练的邀请码或二维码绑定后，双方都能看到这位教练记录的<strong>课程、评价、打分和课时</strong>。</li>
+<li>学员的身体状态摘要、自己记的训练和比赛，<strong>只有学员单独同意共享</strong>后，绑定的这位教练才能看到；其他人看不到。</li>
+<li>学员可以随时停止共享或解除绑定；教练可以移除学员。屏蔽后双方互相看不到，也不能再次绑定。</li></ul></section>
+<section id="s5"><h2><span class="n" style="background:var(--green)">5</span>存储地点与期限</h2>
 <ul>
-<li><strong>通知（可选）：</strong>只用于你自己设定的本地训练提醒，提醒由 iPhone 在本机安排，不经过任何服务器。</li>
-<li><strong>分享：</strong>只有你主动点「分享」时，战绩图或备份文件才会交给 iOS 分享面板，发给谁由你决定。</li>
-</ul></section>
-
-<section><h2><span class="n" style="background:var(--orange)">5</span>删除数据</h2>
+<li>服务器位于<strong>中国境内（阿里云 · 上海）</strong>，不向境外传输。</li>
+<li>保存期限：在你使用账号期间保存；注销账号后立即删除。服务器为防止数据丢失每天做一次加密备份，备份最多保留 7 天后自动覆盖。</li>
+<li>登录凭证在传输中加密（HTTPS），访问令牌 15 分钟过期。</li></ul></section>
+<section id="s6"><h2><span class="n" style="background:var(--lime)">6</span>委托处理与共享</h2>
+<p>我们不向第三方出售、出租或共享你的个人信息。为提供服务，以下服务商会按我们的要求处理必要信息：</p>
+<table><tr><th>服务商</th><th>处理的信息</th><th>目的</th></tr>
+<tr><td data-l="服务商">阿里云计算有限公司</td><td data-l="处理的信息">服务器上的全部账号数据（加密存储）</td><td data-l="目的">云服务器托管</td></tr>
+<tr><td data-l="服务商">阿里云短信服务</td><td data-l="处理的信息">手机号、验证码</td><td data-l="目的">仅在使用手机号登录时发送验证码</td></tr>
+<tr><td data-l="服务商">Apple Inc.</td><td data-l="处理的信息">由 Apple 处理你的 Apple 登录</td><td data-l="目的">「通过 Apple 登录」</td></tr></table>
+<p>法律法规要求或有权机关依法要求时，我们可能依法提供必要信息。</p></section>
+<section id="s7"><h2><span class="n" style="background:var(--teal)">7</span>你的权利</h2>
 <ul>
-<li>在 App 内「我的 › 删除全部数据」：删除全部运动和比赛记录、计划、设置，以及「文件」App 里的 Ace 备份文件，并取消已安排的提醒。删除后无法恢复，建议先导出备份。</li>
-<li>删除 Ace App 也会清除它在本机保存的全部内容（「文件」App 中你另外保存的备份除外）。</li>
-</ul></section>
-
-<section><h2><span class="n" style="background:var(--lime)">6</span>未成年人</h2>
-<p>Ace 不收集任何人的个人信息，包括未成年人。未满 14 周岁的用户请在监护人同意和指导下使用。</p></section>
-
-<section><h2><span class="n" style="background:var(--teal)">7</span>政策更新与联系</h2>
-<p>如果以后增加了需要联网或收集信息的功能，我们会先更新本政策，在 App 内提示你，并在需要时重新征得你的同意。</p>
-<p>如有任何问题，请发邮件至 <a href="mailto:yqqwjy@icloud.com">yqqwjy@icloud.com</a>，我们会在 15 个工作日内回复。</p></section>
-<div class="foot">Ace　|　<a href="support.html">支持与帮助</a></div>
-</div></body></html>
+<li><strong>查看与更正：</strong>在 App 里查看和修改昵称、记录；教练记录有误可请教练修改。</li>
+<li><strong>导出：</strong>「我的 › 账号 › 导出我的数据」，导出服务器上与你有关的全部信息（JSON 文件）。</li>
+<li><strong>撤回同意：</strong>「我的 › 共享给教练」随时关闭；也可在系统设置里关闭健康授权。撤回不影响撤回前的处理。</li>
+<li><strong>注销账号：</strong>「我的 › 账号 › 注销账号」，确认后立即删除服务器上的账号和全部相关数据（含与教练 / 学员的绑定、课程、评价、课时、同步的记录和状态摘要），并撤销 Apple 登录授权。本机记录会保留，你仍可离线使用。</li>
+<li>如在 App 内无法操作，可发邮件联系我们，我们会在 15 个工作日内处理。</li></ul></section>
+<section id="s8"><h2><span class="n" style="background:var(--gold)">8</span>举报与内容安全</h2>
+<p>每条教练评价上都有「举报 / 屏蔽」。我们会在 24 小时内处理举报，并删除违规内容；屏蔽后对方立即看不到你，也无法再次绑定。</p></section>
+<section id="s9"><h2><span class="n" style="background:var(--orange)">9</span>系统权限</h2>
+<ul>
+<li><strong>相机（可选）：</strong>扫描教练的邀请二维码、拍照设置主页背景。照片只保存在本机，不上传。</li>
+<li><strong>照片（仅添加）：</strong>把你生成的分享图保存到相册。</li>
+<li><strong>通知（可选）：</strong>本地训练提醒，由 iPhone 在本机安排。</li></ul></section>
+<section id="s10"><h2><span class="n" style="background:var(--green)">10</span>未成年人</h2>
+<p>登录和教练 / 学员功能仅面向<strong>年满 18 周岁</strong>的用户，注册时需要确认。未成年人可以在监护人指导下使用不登录的本机功能。若发现误收集了未成年人信息，我们会尽快删除。</p></section>
+<section id="s11"><h2><span class="n" style="background:var(--lime)">11</span>政策更新与联系</h2>
+<p>政策有重要变化时，我们会在 App 内提示，并在需要时重新征得你的同意。</p>
+<p>个人信息保护负责人：俞全全，邮箱 <a href="mailto:yqqwjy@icloud.com">yqqwjy@icloud.com</a>。我们会在 15 个工作日内回复。</p></section>
+<div class="foot">Ace　|　<a href="support.html">支持与帮助</a>　|　<a href="terms.html">用户协议</a></div></div></body></html>
