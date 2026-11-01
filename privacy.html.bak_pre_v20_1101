@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="zh-Hans"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#191717"><title>Ace 隐私政策</title><style>:root{--page:#191717;--card:#343333;--card2:#2A2929;--lime:#B0BB52;--orange:#E87D49;--gold:#F7AD2D;--teal:#30AC9F;--green:#5CB538;--l2:#B5B3B3;--sep:rgba(255,255,255,.08)}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--page);color:#fff;font:16px/1.75 -apple-system,BlinkMacSystemFont,"SF Pro Text","PingFang SC","Hiragino Sans GB","Noto Sans CJK SC","Microsoft YaHei",sans-serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:760px;margin:0 auto;padding:max(28px,env(safe-area-inset-top)) 18px 64px}
+.brand{display:flex;align-items:center;gap:10px;color:var(--l2);font-size:14px;letter-spacing:.06em}
+.brand b{font:800 22px/1 "Inter","SF Pro Display",-apple-system,sans-serif;color:#fff;letter-spacing:-.03em}
+.dots{display:flex;gap:5px;margin-left:auto}.dots i{width:9px;height:9px;border-radius:50%}
+h1{font-size:32px;line-height:1.2;font-weight:700;margin:22px 0 8px;letter-spacing:-.01em}
+.meta{color:var(--l2);font-size:14px;margin-bottom:22px}
+.sum{background:var(--card);border-radius:22px;padding:18px 20px;margin:0 0 14px}
+.sum h2{margin-top:0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;margin:14px 0 6px}
+.tile{background:var(--card2);border-radius:16px;padding:12px 14px;font-size:14px;line-height:1.55}
+.tile b{display:block;font-size:15px;margin-bottom:2px}
+.tile .k{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:7px;vertical-align:1px}
+.toc{background:var(--card);border-radius:22px;padding:16px 20px;margin-bottom:14px;font-size:15px}
+.toc a{color:#fff;text-decoration:none;display:block;padding:4px 0;border-bottom:1px solid var(--sep)}.toc a:last-child{border:0}
+.toc a span{color:var(--lime);font-weight:700;margin-right:8px;font-family:"Inter",sans-serif}
+section{background:var(--card);border-radius:22px;padding:18px 20px;margin-bottom:12px}
+h2{font-size:20px;font-weight:700;margin:0 0 10px;display:flex;align-items:center;gap:10px}
+h2 .n{width:28px;height:28px;border-radius:50%;display:inline-grid;place-items:center;font:700 14px "Inter",sans-serif;color:#fff;flex:none}
+h3{font-size:16px;margin:16px 0 4px}
+p,li{color:rgba(255,255,255,.9)}
+ul{padding-left:1.2em;margin:6px 0}li{margin:3px 0}
+table{width:100%;border-collapse:collapse;font-size:14px;margin:8px 0;display:block;overflow-x:auto}
+th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--sep);vertical-align:top;min-width:96px}
+th{color:var(--l2);font-weight:600;white-space:nowrap}
+.fill{display:inline-block;background:rgba(247,173,45,.18);color:#F8BE55;border:1px dashed rgba(247,173,45,.7);border-radius:8px;padding:0 7px;font-weight:600}
+.note{background:rgba(48,172,159,.14);border-left:3px solid var(--teal);border-radius:10px;padding:10px 12px;font-size:14.5px;margin:10px 0}
+.warn{background:rgba(232,125,73,.13);border-left:3px solid var(--orange)}
+strong{color:#fff}
+a{color:var(--lime)}
+.foot{color:var(--l2);font-size:13px;text-align:center;margin-top:24px}
+@media (prefers-color-scheme:light){/* 保持 Ace 炭灰外观 */}
+@media (max-width:620px){table{display:block}table tr:first-child{display:none}table tr{display:block;background:#2A2929;border-radius:14px;padding:8px 12px;margin:8px 0}table td{display:block;border:0;padding:3px 0;min-width:0}table td:before{content:attr(data-l);display:block;color:#B5B3B3;font-size:12px;font-weight:600}table td:first-child{font-weight:700;font-size:15px;color:#fff}table td:first-child:before{display:none}}</style></head>
+<body><div class="wrap"><div class="brand"><b>Ace</b><span>训练 · 身体状态 · 睡眠</span></div>
+<h1>Ace 隐私政策</h1>
+<div class="meta">更新日期：2026 年 10 月 16 日（1.3）<br>开发者：俞全全<br>联系邮箱：<a href="mailto:yqqwjy@icloud.com">yqqwjy@icloud.com</a></div>
+<section><h2>一句话</h2>
+<p>Ace 不联网收集任何数据。所有计算都在你的 iPhone 上完成，没有账号、没有广告；没有第三方统计、广告或崩溃上报 SDK。</p>
+</section>
+<section><h2>我们读取什么（只读，不写入「健康」）</h2>
+<ul>
+<li>训练（包括手表和其他 App 同步到「健康」的训练）、心率、HRV、静息心率、活动能量、步数、睡眠、最大摄氧量、出生日期（年龄）和生理性别；开启「身体指标」时再读取呼吸频率、血氧和睡眠时手腕温度。出生日期和性别只用来估算你的最大心率，让训练负荷更准；不填也能正常使用。</li>
+<li><strong>最大摄氧量（1.3 新增）</strong>：用于「数据 › 身体状态」里的「体能底子」趋势，只在本机显示。</li>
+<li>开启「身体指标」时：呼吸频率、血氧、睡眠时手腕温度。</li>
+<li><strong>经期记录（1.3 新增，默认关闭）</strong>：只有你在「我的 › 身体状态与睡眠」打开「周期」，并在说明页点「打开并授权」后才读取。只用来估算周期第几天，不推算周期阶段；不做任何预测，不推算下次经期，不影响身体状态和训练建议；不出现在小组件、周报、分享图和备份里。关掉后，已读取的经期记录立即从 App 内存中清除。</li>
+</ul>
+<p>原始健康样本只在内存里使用，不保存到手机存储，不进入备份或导出，不上传。</p>
+<p>你自己保存或分享的图片（长图、周报、训练分享卡）可能包含健康数据。「隐藏身体数据」默认打开：HRV、静息心率、心率、血氧、呼吸频率、手腕温度只画图形，数字默认隐藏；只有你手动关闭它，这些数字才会出现在图片里。周期内容在任何情况下都不会进入图片。图片发给谁由你决定，Ace 不会替你发送。</p>
+</section>
+<section><h2>小组件（1.3 新增）</h2>
+<ul>
+<li>小组件只显示 App 算好的数字和文字（身体状态、今晨 HRV、静息心率、昨晚睡眠时长、本周训练分钟、训练建议），不含原始健康样本，也不含周期信息。</li>
+<li>原始健康数据只在内存里处理；每天只把一份算好的摘要保存在本机，给小组件显示（App Group 共享容器里的 summary.json，只含显示用的数字和文字）。文件保护为「首次解锁后可读」，并标记为不进入 iCloud 备份。</li>
+<li>可在「我的 › 小组件与锁屏 › 小组件摘要」随时点「清除」。</li>
+<li>训练计时状态（是否在计时、开始时间）也保存在同一容器里，供控制中心「Ace 训练」和快捷指令使用。</li>
+<li>锁屏小组件在手机锁定时始终隐藏数字，只显示图形，这一点不能关闭。「我的 › 小组件与锁屏 › 锁屏隐藏数字」开关（默认打开）只影响主屏幕小组件：打开时，手机锁定后主屏幕小组件也隐藏数字。</li>
+<li>「删除全部数据」会同时清掉这个文件，小组件随即变为空白。</li>
+</ul>
+</section>
+<section><h2>灵动岛和锁屏实时活动（1.3 新增）</h2>
+<p>只用于训练计时：显示已用时间和今天的建议时长，不显示任何健康数据。你点「开始训练计时」才会出现，结束计时或「删除全部数据」后立即消失。</p>
+</section>
+<section><h2>你自己填写的数据</h2>
+<p>运动记录、比赛记录（含对手姓名）、日记、设置、封面照片，只保存在本机（以及你自己导出的备份文件）。封面照片以文件形式保存在 App 的私有目录里。</p>
+</section>
+<section><h2>演示模式</h2>
+<p>演示模式使用 App 内置的示例数据，不读取也不混入你的真实健康数据；退出后恢复你原来的记录。演示模式默认关闭，只能手动打开：在「我的 › 数据 › 演示模式」打开并确认，或长按「我的」页顶部标题约 1 秒打开演示面板；打开时页面顶部一直显示「正在看演示数据 · 关闭」，演示中导出的图片带「演示数据」水印。演示数据不会写进小组件，也不会进入备份文件。</p>
+</section>
+<section><h2>删除</h2>
+<p>「我的 › 数据 › 删除全部数据」会删除：运动和比赛记录、日记（含早上的行为记录）、设置、训练计时、封面照片文件、备份文件、提醒通知、小组件里的内容，并结束灵动岛上的计时。删除后无法找回。</p>
+</section>
+<section><h2>联系</h2>
+<p>开发者：俞全全　邮箱：<a href="mailto:yqqwjy@icloud.com">yqqwjy@icloud.com</a></p>
+</section>
+<div class="foot">Ace 1.3 · 本页内容与 App 内「隐私」说明一致</div></div></body></html>
